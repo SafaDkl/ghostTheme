@@ -11,5 +11,5 @@ jobs:
       - uses: actions/checkout@master
       - uses: TryGhost/action-deploy-theme@v1.4.1
         with:
-          api-url: ${{ secrets.ADMIN_API_URL }}
+          api-url: ${{ secrets.API_URL }}
           api-key: ${{ secrets.ADMIN_API_KEY }}
